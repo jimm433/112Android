@@ -31,4 +31,11 @@ public class MainActivity extends AppCompatActivity {
         output = (TextView)findViewById(R.id.lblOutput);
         output.setText(R.string.ini_value);
     }
+    public void button3_Click(View view){
+        int count;
+        TextView output = (TextView) findViewById(R.id.lblOutput);
+        count = Integer.parseInt(output.getText().toString());
+        count--;
+        output.setText(Integer.toString(count));
+    }
 }
