@@ -1,10 +1,12 @@
-package com.example.ui_test;
+package com.example.ui_test2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.ui_test2.R;
 
 public class DisplayStringActivity extends AppCompatActivity {
     @Override
